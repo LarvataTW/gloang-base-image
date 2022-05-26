@@ -5,7 +5,7 @@ on:
     tags:
       - 'v*.*.*'
 env:
-  IAMGE_NAME: golang-base-image
+  IMAGE_NAME: golang-base-image
   GITHUB_OWNER: larvataTW
   DOCKERHUB_OWNER: larvata
 
