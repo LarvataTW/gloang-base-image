@@ -38,7 +38,6 @@ jobs:
           ghcr.io/${{ env.GITHUB_OWNER }}/${{ env.IMAGE_NAME }}
         # generate Docker tags based on the following events/attributes
         tags: |
-          type=schedule
           type=semver,pattern={{version}}
     - name: Build and push
       uses: docker/build-push-action@v2
